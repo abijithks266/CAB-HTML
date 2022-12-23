@@ -1,0 +1,43 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+   
+    background-image: url("https://media.istockphoto.com/id/936859172/photo/taxi-cab-in-front-of-night-city.jpg?b=1&s=170667a&w=0&k=20&c=BJRGk7BdE1xGIwtcJKGhMmrrtjI-8lCGUVgDMPacvj8=");
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+tbody{
+    position: relative;
+}
+
+button{
+    display: flex;
+    position: absolute;
+    bottom:none;
+    left: 120px;
+    justify-content: center;
+   
+
+
+}
+.na
+{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}

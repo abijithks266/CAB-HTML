@@ -1,0 +1,97 @@
+body
+{
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+#main-head
+{
+    background-color: black;
+    height: 45px;
+}
+
+#header
+{
+   
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 70vh;
+    width: 100vw;
+    
+}
+
+
+.head
+{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: red;
+    text-decoration: none;
+    font-style:bold;
+    
+}
+div a
+{
+    
+    align-items: center;
+    text-decoration: none;
+    color:green;
+   
+
+}
+.nav-space li
+{
+margin-left: 10px;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#se{
+    border-radius: 10px;
+    color: black;
+}
+@media screen and  (max-width:700px)
+ {
+    #main-head {
+        height: auto;
+    }
+    .nav-space{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    body .about{
+    padding-inline: 0px;
+    }
+    }
+    
+
+.login
+
+.log{
+    
+    height: 30vh;
+    display: flex;
+    justify-content:center
+}
+.log{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+.login-a{
+    margin-right: 20px
+}
+.about 
+{
+    padding-inline: 500px;
+}
+
